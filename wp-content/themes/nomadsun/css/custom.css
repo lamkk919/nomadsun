@@ -1,0 +1,55 @@
+body {
+    /* here we use our main typeface and set it on our body tag */
+    font-family: 'Cardo', georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    /* here we smooth the body text a touch to make it clearer */
+    -webkit-font-smoothing: antialiased;
+}
+
+/* wherever we use the cardo class, we get cardo */
+.cardo {
+    font-family: 'Cardo', georgia, serif;
+}
+
+/* using the same idea as tachyons using classes that apply certain specific styles to our elements */
+.archivo,
+.text-block h3 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.tenor {
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.hero-heading,
+.hero-subhead {
+    font-size: 64px;
+}
+
+.hero-heading {
+    letter-spacing: 0.05em;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.text-block h3 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* for our date underline/overline styles */
+
+.line {
+    width: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color: #1c1c1c;
+}
